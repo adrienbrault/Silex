@@ -61,6 +61,8 @@ The MonologServiceProvider provides a ``monolog`` service. You can use it to
 add log entries for any logging level through ``addDebug()``, ``addInfo()``,
 ``addWarning()`` and ``addError()``:
 
+.. code-block:: php
+
     use Symfony\Component\HttpFoundation\Response;
 
     $app->post('/user', function () use ($app) {

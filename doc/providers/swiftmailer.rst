@@ -76,6 +76,8 @@ Usage
 
 The Swiftmailer provider provides a ``mailer`` service:
 
+.. code-block:: php
+
     $app->post('/feedback', function () use ($app) {
         $request = $app['request'];
 
